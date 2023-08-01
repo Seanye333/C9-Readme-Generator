@@ -1,0 +1,25 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seanye333/C9-Readme-Generator.git"
+  },
+  "keywords": [
+    "Sean"
+  ],
+  "author": "Yuxiang Ye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seanye333/C9-Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/Seanye333/C9-Readme-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
+}
