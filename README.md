@@ -2,6 +2,7 @@
     
 ## Description
     The code is used to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. 
+    Please use the following link as tutorial of demonstration for functionality of README. 
     
     
 ## License
@@ -28,7 +29,10 @@
     Contributions to this project are not avaiable currently.
     
 ## Tests
-    1. cd to readme-generator path;  2. input node index.js on command window; 3 Answer all questions by press enter to proceed each questions (Note: failed to input a required field will not generate a README file at the end;) 4.  Click on README file on the file path to review your new generated README file! 
+    1. cd to readme-generator path;  
+    2. input node index.js on command window; 
+    3 Answer all questions by press enter to proceed each questions (Note: failed to input a required field will not generate a README file at the end;)
+    4.  Click on README file on the file path to review your new generated README file! 
     
 ## Questions
     For any questions, you can reach me through my [GitHub profile](https://github.com/seanye333) or via email at seanye86@gmail.com.
