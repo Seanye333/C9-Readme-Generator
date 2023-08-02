@@ -54,4 +54,36 @@ const questions = [
       message: 'Enter your email address:',
     },
   ];
+  // Create a function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+      if (err) {
+        console.error('Error writing to file:', err);
+        process.exit(1); // Stop execution and exit the program
+      } else {
+        console.log(`${fileName} has been successfully generated!`);
+      }
+    });
+  }
+  
+  // Create a function to initialize app
+  function init() {
+    // Prompt the user for information
+    inquirer
+      .prompt(questions)
+      .then((answers) => {
+        // Generate the README content based on user input
+        const READMEContent = generateREADME(answers);
+  
+        // Write the content to README.md
+        writeToFile('README.md', READMEContent);
+      })
+      .catch((error) => {
+        console.error('Error occurred:', error);
+        process.exit(1); // Stop execution and exit the program
+      });
+  }
+  
+  // Function call to initialize app
+  init();
   
